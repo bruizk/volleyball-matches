@@ -12,11 +12,15 @@ function HomePage() {
         <Flex vertical align="center" style={{textAlign:'-webkit-center'}}>
             <Link to={'/volleyball-matches/new-match'}>
                 <Card
-                    hoverable
                     style={{ width: '75%', marginTop: '10%' }}
-                    cover={<img alt="" src={volleyImage} />}
+                    cover={
+                    <img
+                        alt="example"
+                        src={volleyImage}
+                    />
+                    }
                 >
-                    <Meta title="Nuevo partido" />
+                    <h3 style={{margin:'0px'}}>Nuevo partido</h3>
                 </Card>
             </Link>
         </Flex>

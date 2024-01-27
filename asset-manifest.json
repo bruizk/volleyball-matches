@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/volleyball-matches/static/css/main.e8cc2058.css",
-    "main.js": "/volleyball-matches/static/js/main.fdfcb2dd.js",
+    "main.js": "/volleyball-matches/static/js/main.d6e593e7.js",
     "static/js/787.f6f94266.chunk.js": "/volleyball-matches/static/js/787.f6f94266.chunk.js",
     "static/media/volleyball.jpg": "/volleyball-matches/static/media/volleyball.8e4fef3aa1c53bcab546.jpg",
     "index.html": "/volleyball-matches/index.html",
     "main.e8cc2058.css.map": "/volleyball-matches/static/css/main.e8cc2058.css.map",
-    "main.fdfcb2dd.js.map": "/volleyball-matches/static/js/main.fdfcb2dd.js.map",
+    "main.d6e593e7.js.map": "/volleyball-matches/static/js/main.d6e593e7.js.map",
     "787.f6f94266.chunk.js.map": "/volleyball-matches/static/js/787.f6f94266.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8cc2058.css",
-    "static/js/main.fdfcb2dd.js"
+    "static/js/main.d6e593e7.js"
   ]
 }

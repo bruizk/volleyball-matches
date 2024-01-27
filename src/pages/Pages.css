@@ -1,0 +1,23 @@
+/* NewMatchPage CSS */
+.cross-button {
+    flex: 1 !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.points-items {
+    display: flex;
+}
+
+.ant-space-item {
+    width: 100%;
+}
+
+/**
+:where(.css-dev-only-do-not-override-1qhpsh8).ant-form-horizontal .ant-form-item-control {
+    display: flex;
+    align-items: flex-start;
+    .ant-form-item-control-input {
+        width: 100%;
+    }
+}*/

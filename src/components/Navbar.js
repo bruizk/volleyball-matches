@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="Navbar">
       <div style={{ fontSize: '24px', color: 'white' }}>  
-        <Link to="/volleyball-matches" style={{ color: 'white' }}>
+        <Link to="/stats" style={{ color: 'white' }}>
           CV Torrent - Partidos
         </Link>
       </div>

@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage";
 import NewMatchPage from './pages/NewMatchPage';
 import LastMatchesPage from './pages/LastMatchesPage';
 import Navbar from './components/Navbar';
+import Dashboard from "./pages/Dashboard";
 
 const { Content, Header } = Layout;
 
@@ -18,9 +19,12 @@ function App() {
         </Header>
         <Content>
           <Routes>
-            <Route path="/volleyball-matches" element={<HomePage />} />
+            {/* <Route path="/volleyball-matches" element={<HomePage />} />
             <Route path="/last-matches" element={<LastMatchesPage />} />
             <Route path="/volleyball-matches/new-match" element={<NewMatchPage />} />
+            */}
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/stats" element={<Dashboard />} />
           </Routes>
         </Content>
       </Layout>
@@ -28,4 +32,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 

@@ -9,21 +9,39 @@ function HomePage() {
     const navigate = useNavigate();
 
     return (
-        <Flex vertical align="center" style={{textAlign:'-webkit-center'}}>
-            <Link to={'/volleyball-matches/new-match'}>
-                <Card
-                    style={{ width: '75%', marginTop: '10%' }}
-                    cover={
-                    <img
-                        alt="example"
-                        src={volleyImage}
-                    />
-                    }
-                >
-                    <h3 style={{margin:'0px'}}>Nuevo partido</h3>
-                </Card>
-            </Link>
-        </Flex>
+        <div>
+            <Flex vertical align="center" style={{textAlign:'-webkit-center'}}>
+                <Link to={'/volleyball-matches/new-match'}>
+                    <Card
+                        style={{ width: '75%', marginTop: '10%' }}
+                        cover={
+                        <img
+                            alt="example"
+                            src={volleyImage}
+                        />
+                        }
+                    >
+                        <h3 style={{margin:'0px'}}>Nuevo partido</h3>
+                    </Card>
+                </Link>
+            </Flex>
+            <Flex vertical align="center" style={{textAlign:'-webkit-center'}}>
+                <Link to={'/volleyball-matches/new-match'}>
+                    <Card
+                        style={{ width: '75%', marginTop: '10%' }}
+                        cover={
+                        <img
+                            alt="example"
+                            src={volleyImage}
+                        />
+                        }
+                    >
+                        <h3 style={{margin:'0px'}}>Nuevo partido</h3>
+                    </Card>
+                </Link>
+            </Flex>
+        </div>
+        
     )
     
 }
